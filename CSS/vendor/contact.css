@@ -219,42 +219,55 @@
     border: 1px #2ea3f2 solid;
     border-radius: 5px;
     color: #2ea3f2;
+    cursor: pointer;
 }
-.conten-1 .card-3 .error{
+
+.conten-1 .card-3 .to-send:hover {
+    background-color: #2ea3f2;
+    color: white;
+}
+
+.conten-1 .card-3 .error {
     text-align: center;
     color: red;
 }
 
 /* ------------------------------------REPONSIVE MOBILE---------------------------------- */
-@media only screen and (max-width:739px){
-    .conten-1 .card-3{
+@media only screen and (max-width:739px) {
+    .conten-1 .card-3 {
         width: 100%;
         margin-left: 0;
     }
-    .conten-1 .s-title-1::after{
+
+    .conten-1 .s-title-1::after {
         display: none;
     }
-    .conten-1 .s-title-1::before{
+
+    .conten-1 .s-title-1::before {
         display: none;
     }
-    .map{
+
+    .map {
         width: 100%;
     }
-    .conten-1 .card-1 .info .web{
+
+    .conten-1 .card-1 .info .web {
         margin-left: 78px;
     }
-    .conten-1 .card-1 .hotline .hotline-1{
+
+    .conten-1 .card-1 .hotline .hotline-1 {
         font-size: 15px;
     }
 }
 
 /* ------------------------------------REPONSIVE TABLET---------------------------------- */
-@media only screen and (min-width:46.1875em) and (max-width:64em){
-    .conten-1 .card-3{
+@media only screen and (min-width:46.1875em) and (max-width:64em) {
+    .conten-1 .card-3 {
         margin-top: 0;
         margin-left: 0;
     }
-    .conten-1 .card-3 .to-send{
+
+    .conten-1 .card-3 .to-send {
         width: 100%;
     }
 }
